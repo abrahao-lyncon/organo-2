@@ -262,7 +262,7 @@ function App() {
 
   function resolverFavorito(id){
     setColaboradores(colaboradores.map(colaborador => {
-      if(colaborador.id === id) colaborador.id = !colaborador.favorito
+      if(colaborador.id === id) colaborador.favorito = !colaborador.favorito
       return colaborador
     }
   ))
@@ -270,7 +270,7 @@ function App() {
 
 
   return (
-    <div>
+    <div> 
       <Banner />
       <Formulario 
       times={times.map(time => time.nome)} 
