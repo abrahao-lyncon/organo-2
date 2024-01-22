@@ -1,6 +1,7 @@
 .colaborador {
     width: 280px;
     position: relative;
+    margin-bottom: 24px;
 }
 
 .colaborador .cabecalho {
@@ -19,7 +20,7 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0px 0px 10px 10px;
     padding-top: 90px;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 }
 
 .colaborador .rodape h4 {
@@ -35,6 +36,7 @@
     line-height: 22px;
     color: #212121;
     padding: 0 16px;
+    min-height: 45px;
 }
 
 .deletar{
