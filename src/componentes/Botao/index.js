@@ -1,3 +1,4 @@
+import React from 'react'
 import './botao.css'
 
 const Botao = ({texto}) => {
